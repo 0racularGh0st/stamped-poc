@@ -13,10 +13,10 @@ const loadStamped = () => {
         StampedFn.on('stamped:init:starting', function(){
             console.log("here2");
             StampedFn.initRewards({
-                customerId: '4f2b3477-127f-4c32-bf0c-c64187b62331', // your own internal numeric ID of the customer
-                customerEmail: 'nigelcustomer@yopmail.com',
+                customerId: '123', // your own internal numeric ID of the customer
+                customerEmail: 'nigelcustomer2@yopmail.com',
                 customerFirstName: 'nigel',
-                customerLastName: 'david',
+                customerLastName: 'tariang',
             });
         });
        }
